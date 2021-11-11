@@ -1,0 +1,102 @@
+
+/* file:///C:/Users/Welcome/Downloads/blazer1.png
+file:///C:/Users/Welcome/Downloads/blazer2.png
+file:///C:/Users/Welcome/Downloads/blazer3.jpg */
+
+
+/* file:///C:/Users/Welcome/Downloads/shoes2.jpg
+file:///C:/Users/Welcome/Downloads/shoes3.jpg
+file:///C:/Users/Welcome/Downloads/shoes1.jpg */
+
+/* file:///C:/Users/Welcome/Downloads/watch1.jpg
+file:///C:/Users/Welcome/Downloads/watch2.jpg
+file:///C:/Users/Welcome/Downloads/watch3.jpg  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+main{
+    width: 90%;
+    background: white;
+    margin: 60px auto;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #e5e5e5;
+}
+header ul li{
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    font-size: 20px;
+}
+header ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+/* header ul li.active a{
+    color: red;
+} */
+/* div{
+    padding: 40px 20px;
+}
+div ul{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div ul li{
+    list-style: none;
+    width: 25%;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background: whitesmoke;
+    overflow: hidden;
+
+}
+div ul li img{
+    width: 100%;
+    height: 65%;
+
+}
+div ul li p{
+    font-size: 18px;
+    line-height: 25px;
+}
+div ul li h4{
+    color: #999;
+} */
+
+.container{
+    height:300px;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    padding: 25px;
+    
+}
+
+.abc{
+    text-align: center;
+    font-size: 80px;
+  color: gray;
+
+}
+
+ 
